@@ -1,0 +1,14 @@
+{
+    "add_new": "asset/icons/add_new.png",
+    "close": "asset/icons/close.png",
+    "collapse": "asset/icons/collapse.png",
+    "copy": "asset/icons/copy.png",
+    "edit": "asset/icons/edit.png",
+    "expand": "asset/icons/expand.png",
+    "hide": "asset/icons/hide.png",
+    "minimize": "asset/icons/minimize.png",
+    "password": "asset/icons/password.png",
+    "remove": "asset/icons/remove.png",
+    "setting": "asset/icons/setting.png",
+    "show": "asset/icons/show.png"
+}
