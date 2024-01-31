@@ -8,7 +8,7 @@ from PyQt6.QtWidgets import QApplication
 from screeninfo import get_monitors
 import darkdetect
 
-from .user_interface.password_manager import PasswordManager
+from src.user_interface.password_manager import PasswordManager
 
 
 class Application:
