@@ -18,38 +18,43 @@ APM stands for **Aria-AAs password manager**. It is a simple and minimal passwor
 
 It allows you to securely save usernames and passwords under different names with a simple GUI interface.
 
-## How to use APM.
+## How to use APM?
 
 Some important notes.
 - **Note:** The application is in beta version. so it may not be safe enough yet.
 - **Note:** As the application does not have auto-updater yet, you should check this page continuously to update the application manually.
-- **Note:** As the application has no release, the only option to use it is the developer mode.
-
-### Install in developer mode:
+- **Note:** The application tested only on Windows.
 
 - [Windows](#windows)
 - [Linux](#linux)
 
 #### Windows:
 
-- Download the zip file of the repository.
-- Extract the downloaded file.
-- Make sure that Python is installed on your system.
-- Open a command prompt.
-- Go to the root folder of the project.
-- Run `pip install -r requirements.txt`
-- Run `python main.py`
-- Enjoy.
+1. Download the zip file of the repository.
+2. Extract the downloaded file.
+3. Make sure that Python is installed on your system.
+4. Open a command prompt.
+5. Go to the root folder of the project.
+6. Run `pip install -r requirements.txt`
+7. Run `python main.py`
+8. Enjoy.
 
 #### Linux:
 
-- Make sure that Python version 3 is installed on your system.
-- Open a terminal.
-- Go to the root directory of the project.
-- Run `git clone https://github.com/Aria-AAs/APM.git`
-- Run `pip3 install -r requirements.txt`
-- Run `python3 main.py`
-- Enjoy.
+1. Make sure that version 3 of Python is installed on your system.
+2. Open a terminal.
+3. Run `sudo apt install xsel xclip`
+4. Run `git clone https://github.com/Aria-AAs/APM.git`
+5. Go to the APM directory.
+6. Make a virtual environment.
+    - We recommend you use the virtualenv to do this task.
+        1. Install it using `pip install virtualenv`
+        2. Make a new virtual environment using `virtualenv venv`
+7. Active the virtual environment that you made in the previous step.
+    - if you are using virtualenv you can active it using `source venv/bin/activate`
+8.  Run `pip install -r requirements.txt`
+9.  Run `python3 main.py`
+10. Enjoy.
 
 ## TODO:
 
