@@ -1,5 +1,6 @@
 """A module that contains the SecretRow class
 """
+
 from pyperclip import copy
 from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import QHBoxLayout, QLineEdit, QPushButton

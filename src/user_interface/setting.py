@@ -1,5 +1,6 @@
 """A module that contains the Setting class
 """
+
 import json
 from pathlib2 import Path
 from PyQt6.QtCore import QPointF, QSize, Qt, QTimer, pyqtSignal

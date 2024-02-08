@@ -1,5 +1,6 @@
 """A module that contains the ChangePassword class
 """
+
 from pathlib2 import Path
 from PyQt6.QtCore import QPointF, QSize, Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QIcon, QMouseEvent

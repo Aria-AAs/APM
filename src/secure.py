@@ -1,5 +1,6 @@
 """A module that contains the Secure class
 """
+
 from bcrypt import gensalt, hashpw, checkpw
 from Crypto.Random import get_random_bytes
 from Crypto.Protocol.KDF import PBKDF2

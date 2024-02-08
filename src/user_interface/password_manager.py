@@ -1,5 +1,6 @@
 """A module that contains the PasswordManager class
 """
+
 from ast import literal_eval
 import os
 from pathlib2 import Path

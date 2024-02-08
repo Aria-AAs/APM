@@ -1,5 +1,6 @@
 """A module that contains the PasswordGenerator class
 """
+
 from random import randint
 
 from pathlib2 import Path

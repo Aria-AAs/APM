@@ -1,5 +1,6 @@
 """The start point of the password manager application.
 """
+
 import json
 from os import makedirs
 
