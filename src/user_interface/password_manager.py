@@ -158,7 +158,7 @@ class PasswordManager(QWidget):
             )
         )
         self.auteur_layout.addWidget(self.auteur_icon_label)
-        self.auteur_name_label = QLabel("AriAas")
+        self.auteur_name_label = QLabel("Aria-AAs")
         self.auteur_layout.addWidget(self.auteur_name_label)
         self.auteur_layout.setAlignment(
             Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignRight
